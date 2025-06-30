@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "bitcoincoding.dev"
+        }
+      ],
+      "destination": "https://www.bitcoincoding.dev/$1",
+      "permanent": true
+    }
+  ]
+}
